@@ -3,23 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Офіційна сторінка бакалаврської роботи з розробки аналітичного застосунку.">
+    <meta name="description" content="Офіційна сторінка бакалаврської роботи з розробки аналітичного застосунку для ринку автомобілів.">
+    <meta name="keywords" content="бакалаврська робота, автомобільна аналітика, розробка застосунків, Flutter, Dart, кросплатформна розробка">
     <title>Бакалаврська робота | Автомобільна аналітика</title>
 
     <meta property="og:title" content="Бакалаврська робота | Автомобільна аналітика">
-    <meta property="og:description" content="Офіційна сторінка бакалаврської роботи з розробки аналітичного застосунку.">
+    <meta property="og:description" content="Презентація бакалаврської роботи з розробки застосунку для аналізу ринку авто.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://dima35954.github.io/bachelor-landing/">
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "ScholarlyArticle",
             "headline": "Розробка кросплатформного застосунку для аналітики",
-            "author": {
-                "@type": "Person",
-                "name": "Студент"
-            }
+            "author": { "@type": "Person", "name": "Студент" }
         }
     </script>
 
@@ -27,21 +24,59 @@
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎓</text></svg>">
 </head>
 <body>
-<header role="banner">
-    <h1 aria-label="Тема бакалаврської роботи">Розробка кросплатформного застосунку для аналітики</h1>
+<header role="banner" class="hero">
+    <img src="https://via.placeholder.com/150x50?text=University+Logo" alt="Логотип університету" class="uni-logo" loading="lazy">
+
+    <h1 aria-label="Тема бакалаврської роботи">Розробка кросплатформного застосунку для автомобільної аналітики</h1>
+    <p class="subtitle">Development of a cross-platform application for car sales analytics</p>
 </header>
 
-<main role="main">
-    <section aria-labelledby="about-title">
-        <h2 id="about-title">Про роботу</h2>
-        <p>Тут буде опис бакалаврської роботи.</p>
+<main role="main" class="container">
+    <section aria-labelledby="desc-title" class="section">
+        <h2 id="desc-title">Короткий опис</h2>
+        <p>Проєкт присвячений створенню сучасного кросплатформного інструменту для агрегації та аналізу даних ринку автомобілів. Застосунок дозволяє користувачам відслідковувати цінові тренди, порівнювати характеристики та отримувати статистику в реальному часі.</p>
+    </section>
 
-        <img src="placeholder.jpg" alt="Схематичне зображення архітектури застосунку" aria-hidden="false">
+    <section aria-labelledby="relevance-title" class="section">
+        <h2 id="relevance-title">Актуальність теми</h2>
+        <p>В умовах динамічного автомобільного ринку наявність швидкого, зручного та мобільного інструменту для аналітики даних є критично важливою для прийняття зважених рішень як покупцями, так і продавцями.</p>
+    </section>
+
+    <section aria-labelledby="goal-title" class="section">
+        <h2 id="goal-title">Мета та завдання</h2>
+        <p><strong>Мета:</strong> Спроєктувати та розробити ефективний мобільний застосунок для візуалізації та аналізу даних авторинку.</p>
+        <h3>Основні завдання:</h3>
+        <ul>
+            <li>Дослідити існуючі рішення на ринку автомобільної аналітики.</li>
+            <li>Розробити архітектуру кросплатформного застосунку на базі Flutter.</li>
+            <li>Імплементувати алгоритми обробки масивів даних.</li>
+            <li>Створити інтуїтивно зрозумілий користувацький інтерфейс (UI/UX).</li>
+            <li>Провести тестування та оптимізацію продуктивності.</li>
+        </ul>
+    </section>
+
+    <section aria-labelledby="methodology-title" class="section">
+        <h2 id="methodology-title">Опис методології</h2>
+        <p>При розробці використовується методологія Agile (Scrum). Технологічний стек включає фреймворк Flutter (Dart) для клієнтської частини, REST API для отримання даних та систему контролю версій Git для керування кодом.</p>
+    </section>
+
+    <section aria-labelledby="results-title" class="section">
+        <h2 id="results-title">Очікувані результати</h2>
+        <p>Готовий програмний продукт, що стабільно працює на платформах Android та iOS, забезпечує високу швидкість обробки даних та має налаштований CI/CD пайплайн для подальшого масштабування.</p>
+
+        <figure class="app-showcase">
+            <img src="https://via.placeholder.com/800x400?text=App+Analytics+Dashboard" alt="Приклад інформаційної панелі аналітичного застосунку" class="responsive-img" loading="lazy">
+            <figcaption>Рис. 1 - Інформаційна панель аналітичного застосунку</figcaption>
+        </figure>
     </section>
 </main>
 
-<footer role="contentinfo">
-    <p>&copy; 2024. Усі права захищено.</p>
+<footer role="contentinfo" class="footer">
+    <h2 id="contacts-title">Контакти</h2>
+    <p>Автор: Студент 4 курсу</p>
+    <p>Email: <a href="mailto:student@example.com">student@example.com</a></p>
+    <p><a href="https://github.com/Dima35954/auto-ria-analytics-2024" target="_blank" rel="noopener noreferrer">Посилання на репозиторій застосунку (повний текст/код)</a></p>
+    <p class="copyright">&copy; 2024. Усі права захищено.</p>
 </footer>
 </body>
 </html>
